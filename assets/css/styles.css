@@ -50,6 +50,18 @@ a {
   transition: transform 0.4s;
 }
 
+.button__content {
+  position: relative;
+  background: var(--gradient-color);
+  padding: 1.25rem 3rem;
+  border-radius: 4rem;
+  border: 3px solid var(--black-color);
+  color: var(--black-color);
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
 /* Reflection shapes */
 
 /* Moving geometric shapes */
