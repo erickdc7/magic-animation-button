@@ -115,9 +115,16 @@ a {
 /* Moving geometric shapes */
 .button img {
   position: absolute;
-  opacity: 0;
+  /* opacity: 0; */
   pointer-events: none;
   transition: transform 0.5s, opacity 0.5s;
+}
+
+.button__star-1 {
+  width: 20px;
+  top: -14px;
+  left: -16px;
+  transform: rotate(48deg);
 }
 
 /* Gradient shadow */
