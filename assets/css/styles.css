@@ -195,3 +195,36 @@ a {
 }
 
 /* View geometric shapes */
+.button:hover {
+  transform: rotate(-4deg) scale(1.1);
+}
+
+.button:hover img {
+  opacity: 1;
+}
+
+.button:hover .button__star-1 {
+  transform: scale(1.1);
+  transition-delay: 0.1s;
+}
+
+.button:hover .button__star-2 {
+  transform: scale(1.1);
+}
+
+.button:hover .button__circle-1 {
+  transform: translateY(-8px) scale(1.1);
+  transition-delay: 0.1s;
+}
+
+.button:hover .button__circle-2 {
+  transform: translate(-20px, 20px) scale(1.1);
+}
+
+.button:hover .button__diamond {
+  transform: translateY(7px) rotate(-24deg) scale(1.1);
+}
+
+.button:hover .button__triangle {
+  transform: rotate(-12deg) scale(1.1);
+}
