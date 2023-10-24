@@ -45,6 +45,11 @@ a {
   place-items: center;
 }
 
+.button {
+  position: relative;
+  transition: transform 0.4s;
+}
+
 /* Reflection shapes */
 
 /* Moving geometric shapes */
