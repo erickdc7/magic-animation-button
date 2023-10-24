@@ -181,6 +181,9 @@ a {
 }
 
 /* View shadow gradient */
+.button:hover .button__shadow {
+  transform: translate(-0.5rem, 0.5rem);
+}
 
 /* Move reflection */
 
