@@ -127,6 +127,13 @@ a {
   transform: rotate(48deg);
 }
 
+.button__star-2 {
+  width: 40px;
+  right: -10px;
+  top: -4px;
+  transform: rotate(-48deg);
+}
+
 /* Gradient shadow */
 
 /* View shadow gradient */
