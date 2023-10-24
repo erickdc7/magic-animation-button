@@ -134,6 +134,21 @@ a {
   transform: rotate(-48deg);
 }
 
+.button__circle-1,
+.button__circle-2 {
+  width: 8px;
+}
+
+.button__circle-1 {
+  top: -8px;
+  left: 58px;
+}
+
+.button__circle-2 {
+  right: 34px;
+  bottom: -8px;
+}
+
 /* Gradient shadow */
 
 /* View shadow gradient */
