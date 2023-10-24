@@ -186,5 +186,8 @@ a {
 }
 
 /* Move reflection */
+.button:hover .button__reflection-1 {
+  left: 120%;
+}
 
 /* View geometric shapes */
