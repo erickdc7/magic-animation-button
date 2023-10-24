@@ -60,7 +60,7 @@ a {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .button__text {
@@ -82,11 +82,12 @@ a {
 .button__reflection-2 {
   width: 8px;
   height: 120px;
-  background-color: lime;
+  background-color: var(--reflection-color);
   rotate: 30deg;
   position: absolute;
   inset: 0;
   top: 0;
+  left: -180%;
   margin: auto;
   transition: left 0.6s cubic-bezier(0.2, 0.5, 0.2, 1.2);
 }
@@ -95,7 +96,7 @@ a {
   content: "";
   width: 26px;
   height: 100%;
-  background-color: red;
+  background-color: var(--reflection-color);
   position: absolute;
   top: -1rem;
   left: 1.25rem;
@@ -105,7 +106,7 @@ a {
   content: "";
   width: 40px;
   height: 100%;
-  background-color: blue;
+  background-color: var(--reflection-color);
   position: absolute;
   top: -1rem;
   left: 0.8rem;
