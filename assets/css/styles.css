@@ -190,4 +190,8 @@ a {
   left: 120%;
 }
 
+.button:hover .button__reflection-2 {
+  left: -70%;
+}
+
 /* View geometric shapes */
