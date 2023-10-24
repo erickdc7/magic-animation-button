@@ -101,6 +101,16 @@ a {
   left: 1.25rem;
 }
 
+.button__reflection-2::after {
+  content: "";
+  width: 40px;
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+  top: -1rem;
+  left: 0.8rem;
+}
+
 /* Moving geometric shapes */
 
 /* Gradient shadow */
