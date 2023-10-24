@@ -115,7 +115,7 @@ a {
 /* Moving geometric shapes */
 .button img {
   position: absolute;
-  /* opacity: 0; */
+  opacity: 0;
   pointer-events: none;
   transition: transform 0.5s, opacity 0.5s;
 }
@@ -124,14 +124,14 @@ a {
   width: 20px;
   top: -14px;
   left: -16px;
-  transform: rotate(48deg);
+  transform: rotate(48deg) scale(0.1);
 }
 
 .button__star-2 {
   width: 40px;
   right: -10px;
   top: -4px;
-  transform: rotate(-48deg);
+  transform: rotate(-48deg) scale(0.1);
 }
 
 .button__circle-1,
@@ -142,17 +142,27 @@ a {
 .button__circle-1 {
   top: -8px;
   left: 58px;
+  transform: scale(0.1);
 }
 
 .button__circle-2 {
   right: 34px;
   bottom: -8px;
+  transform: scale(0.1);
 }
 
 .button__diamond {
   width: 18px;
   top: -18px;
   right: 62px;
+  transform: scale(0.1);
+}
+
+.button__triangle {
+  width: 30px;
+  left: 15px;
+  bottom: -16px;
+  transform: rotate(-48deg) scale(0.1);
 }
 
 /* Gradient shadow */
