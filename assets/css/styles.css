@@ -149,6 +149,12 @@ a {
   bottom: -8px;
 }
 
+.button__diamond {
+  width: 18px;
+  top: -18px;
+  right: 62px;
+}
+
 /* Gradient shadow */
 
 /* View shadow gradient */
