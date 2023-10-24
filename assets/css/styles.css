@@ -113,6 +113,12 @@ a {
 }
 
 /* Moving geometric shapes */
+.button img {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.5s, opacity 0.5s;
+}
 
 /* Gradient shadow */
 
